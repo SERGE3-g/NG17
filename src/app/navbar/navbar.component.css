@@ -1,0 +1,48 @@
+
+.navbar {
+    background-color: #f8f9fa; 
+
+  }
+  
+  .navbar-brand img {
+    margin-right: 5px; 
+    height: 2em;
+
+  }
+  
+  .navbar-brand {
+    font-weight: bold; 
+    font-size: 1.5em; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; 
+
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000; 
+    font-weight: bold; 
+    font-size: 1.1em; 
+  }
+  
+  .navbar-nav .nav-item.dropdown:hover .nav-link {
+    background-color: #e9ecef; 
+
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa; 
+    
+  }
+  
+  .dropdown-divider {
+    background-color: #007bff;
+    
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #007bff; 
+    font-weight: bold;
+  }
+  
