@@ -1,7 +1,7 @@
-
 .navbar {
     background-color: #f8f9fa; 
-
+    padding: 1rem 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
   .navbar-brand img {
@@ -17,6 +17,8 @@
   
   .navbar-toggler-icon {
     background-color: #007bff; 
+    border-radius: 50%;
+
 
   }
   
@@ -28,16 +30,19 @@
   
   .navbar-nav .nav-item.dropdown:hover .nav-link {
     background-color: #e9ecef; 
+    border-radius: 0.25rem;
 
   }
   
   .dropdown-menu {
     background-color: #f8f9fa; 
-    
+    border: 1px solid #007bff;
+
   }
   
   .dropdown-divider {
     background-color: #007bff;
+
     
   }
   
@@ -46,3 +51,22 @@
     font-weight: bold;
   }
   
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #007bff; 
+        font-weight: bold;
+    }
+
+    .background-brand{
+      background-color: #007bff; 
+      border-radius: 50%;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover{
+      background-color: #e9ecef; 
+      border-radius: 0.25rem;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover{
+      background-color: #e9ecef; 
+      border-radius: 0.25rem;
+    }
