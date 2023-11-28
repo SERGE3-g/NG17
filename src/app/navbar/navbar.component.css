@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     background-color: #f8f9fa; 
     padding: 1rem 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -69,4 +69,81 @@
     .navbar-nav .nav-item .nav-link:hover{
       background-color: #e9ecef; 
       border-radius: 0.25rem;
-    }
+    } */
+
+    /* Stili generali del navbar */
+.navbar {
+  background-color: #343a40; /* Colore di sfondo scuro */
+  font-family: 'Arial', sans-serif; /* Tipo di carattere */
+}
+
+.navbar-brand {
+  color: #fff; /* Colore del testo per il brand */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #bbb; /* Colore del testo per i link */
+  transition: color 0.3s; /* Transizione morbida per i cambiamenti di colore */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff; /* Colore del testo al passaggio del mouse */
+}
+
+/* Dropdown menu */
+.nav-item.dropdown .dropdown-toggle {
+  color: #bbb; /* Colore del testo per i link dropdown */
+}
+
+.dropdown-menu {
+  background-color: #343a40; /* Colore di sfondo per il menu dropdown */
+}
+
+.dropdown-item {
+  color: #bbb; /* Colore del testo per gli elementi del menu dropdown */
+}
+
+.dropdown-item:hover {
+  background-color: #50575d; /* Colore di sfondo al passaggio del mouse */
+  color: #fff; /* Colore del testo al passaggio del mouse */
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .responsive__active {
+      display: block; /* Mostra il menu in modalità responsive */
+  }
+
+  .responsive__inactive {
+      display: none; /* Nascondi il menu in modalità non responsive */
+  }
+
+  .navbar-toggler {
+      border-color: #bbb; /* Colore del bordo del bottone toggler */
+  }
+
+  .navbar-toggler-icon {
+      background-image: url("path/to/your/toggler-icon.png"); /* Percorso per l'icona del toggler */
+  }
+}
+
+/* Stili aggiuntivi per migliorare la visibilità e l'usabilità */
+.navbar-collapse {
+  justify-content: flex-end; /* Allinea gli elementi del menu a destra */
+}
+
+.navbar-toggler {
+  border: none; /* Rimuove il bordo dal bottone toggler */
+}
+
+/* Stili per l'accessibilità */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
