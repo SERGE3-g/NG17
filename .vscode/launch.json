@@ -22,8 +22,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/gueas/NG17",
-      "program": "c:/Users/gueas/NG17/build/Debug/outDebug",
+      "cwd": "c:/Users/User/NG1717/NG17",
+      "program": "c:/Users/User/NG1717/NG17/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
